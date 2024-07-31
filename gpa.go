@@ -44,7 +44,7 @@ func main() {
 		if isValidName(name) {
 			break
 		} else {
-			fmt.Println(" Name must contain only letters and cannot be empty.")
+			fmt.Println("Name must contain only letters and cannot be empty.")
 			continue
 		}
 	}
